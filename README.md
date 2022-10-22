@@ -1,6 +1,6 @@
 # Spicy-X-Restaurant
 
-Spicy-X-Restaurant, a restaurant website template built with HTML5, CSS3
+Spicy-X-Restaurant, a restaurant website template built with HTML4, CSS2
 
 ## Features
 
