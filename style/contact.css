@@ -17,19 +17,20 @@ body {
 }
 
 .sub-title {
-  margin: 0px;
+  margin-top: 10px;
   text-align: center;
   color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 
 }
 
 .line {
   display: inline block;
-    width: 240;
-    border-color: #c1a35f;
-    border-style: solid;
-    margin: 10px auto;
+  width: 240;
+  border-color: #c1a35f;
+  border-style: solid;
+  margin: 5px auto;
+
 }
 
 .main-table {

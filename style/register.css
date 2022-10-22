@@ -21,12 +21,19 @@ body {
 }
 
 
-
 .left h1 {
-  margin: 0 0 20px 0;
   font-weight: 300;
   font-size: 28px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
+}
+.line {
+  display: inline block;
+  width: 240;
+  border-color: #c1a35f;
+  border-style: solid;
+  margin: 5px auto;
+  margin-bottom: 35px;
+
 }
 
 .left {
@@ -57,13 +64,13 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   line-height: 40px;
   color: white;
-  margin-top: 180px;
+  margin-top: 185px;
   margin-left: 10px;
 }
 
 .right .loginwith {
   display: block;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   font-size: 28px;
   color: black;
   text-align: center;
@@ -122,9 +129,9 @@ input[type="password"] {
   border-radius: 5px;
 }
 
-input[type="submit"] {
+.left input[type="submit"] {
   margin-top: 20px;
-  width: 100%;
+  width: 80%;
   height: 35px;
   border-radius: 5px;
   background: #c1a35f;

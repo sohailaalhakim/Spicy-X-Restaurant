@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Tangerine);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Prata);
+@import url(https://fonts.googleapis.com/css?family=Prata);
 
 
 /* TODO -------------------------------------------------------- */
@@ -253,6 +254,10 @@ input[type="email"]:focus {
 
 input[type="submit"]:hover,
 input[type="submit"]:focus {
+  background: #fff;
+  color: #c1a35f;
+  text-decoration: none;
+  border: 1px solid #c1a35f;
   opacity: 0.8;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 

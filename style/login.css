@@ -6,21 +6,27 @@
 .body-border {
   margin: auto;
   text-align: center;
-  height: 60%;
-  width: 35%;
+  height: 58%;
+  width: 33%;
   border: 2px solid #c1a35f;
   border-radius: 6px;
-  padding: 20px;
-  padding-top: 50px;
+  padding: 30px;
+  padding-top: 40px;
 }
-
+.line {
+  display: inline block;
+  width: 240;
+  border-color: #c1a35f;
+  border-style: solid;
+  margin: 10px auto;
+}
 .body-border h1 {
   font-weight: bold;
   font-size: 28px;
 }
 
 .body-border P {
-  margin-top: 20px;
+  margin-top: 25px;
   font-weight: 200;
   font-size: 15px;
 }
@@ -49,11 +55,13 @@ input[type="password"] {
   border-radius: 5px;
 }
 
-input[type="submit"] {
-  margin-top: 40px;
-  width: 100%;
+.body-border input[type="submit"] {
+  margin-top: 30px;
+  width: 75%;
   height: 32px;
+  padding: 5px 20px 5px 20px;
   border-radius: 5px;
+  box-sizing: border-box;
   background: #c1a35f;
   border: none;
   color: #FFF;
@@ -61,12 +69,12 @@ input[type="submit"] {
   font-weight: 500;
   text-transform: uppercase;
   cursor: pointer;
+
 }
 
 input[type="text"]:hover,
 input[type="password"]:hover {
   outline: none;
-
   border: 1px solid #c1a35f;
 }
 

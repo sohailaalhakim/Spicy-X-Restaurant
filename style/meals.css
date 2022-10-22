@@ -17,19 +17,21 @@ body {
     line-height: 30px;
     font-weight: 400;
   }
-  .sub-title{
-    margin: 0px;
+  .sub-title {
+    margin-top: 5px;
     text-align: center;
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  
   }
-  .line{
+  
+  .line {
     display: inline block;
     width: 240;
     border-color: #c1a35f;
     border-style: solid;
-    margin: 10px auto;
+    margin: 5px auto;
+  
   }
   .menubox{
     background-color: #c1a35f;
@@ -46,6 +48,6 @@ body {
  } 
  .maintable{
     text-align: center;
-   margin: 50px;
+   padding:  50px;
     width: 100%;
  }

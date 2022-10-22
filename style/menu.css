@@ -1,80 +1,92 @@
-body{
-    font-family: "Bookman Old Style";
+body {
+  font-family: "Bookman Old Style";
 }
 
 
-.title{
-    text-align: center;
-    margin: 0px;
-    padding-top: 60px;
-    font-size:  60px;
-    font-family: "Edwardian Script ITC";
-    color:  #c1a35f;
-    line-height: 30px;
-    font-weight: 400;
-  }
-  .sub-title{
-    margin: 0px;
-    text-align: center;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-  }
-  .line{
-    display: inline block;
-    width: 240;
-    border-color: #c1a35f;
-    border-style: solid;
-    margin: 10px auto;
-    
-  }
-  #header{
-    color: #c1a35f;
-    font-size: 20px;
-    text-align: center;
-  }
-
-  .card{
-    background-color: white;
-    border: black;
-    width: 350px;
-    margin: 20px;
-    border-radius: 10px;
-    padding-bottom: 10;
-    box-shadow:  0 2px 4px rgba(0, 0, 0, 0.4);;
-  }
- .menu-table img{
-    width: 350px;
-    height: 200px;
-    border-radius: 10px;
-    box-shadow:  0 2px 4px rgba(0, 0, 0, 0.4);;
-  }
- .menu-body h3{
-    text-align: center;
-    color: #c1a35f;
-    margin-top: 10;
-  }
-  .menu-body p{
-    text-align: center;
-    margin: 10px;
-
-  }
-.menu-body h4{
-    text-align: center;
-    color: #c1a35f;
-    font-family: "Edwardian Script ITC";
-    font-size: 30px;
-    
-    
+.title {
+  text-align: center;
+  margin: 0px;
+  padding-top: 60px;
+  font-size: 60px;
+  font-family: "Edwardian Script ITC";
+  color: #c1a35f;
+  line-height: 30px;
+  font-weight: 400;
 }
-.menu-table{
-    text-align: center;
-    padding: 40px;
-    width: 100%;
+
+.sub-title {
+  margin-top: 3px;
+  text-align: center;
+  color: black;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 
 }
 
+.line {
+  display: inline block;
+  width: 240;
+  border-color: #c1a35f;
+  border-style: solid;
+  margin: 5px auto;
+
+}
+
+#header {
+  color: #c1a35f;
+  font-size: 20px;
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  border: black;
+  width: 350px;
+  margin: 20px;
+  border-radius: 10px;
+  padding-bottom: 10;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  border-bottom: 5px solid white;
+}
+
+.card:hover  {
+  background: rgb(236, 236, 236);
+  color: #c1a35f;
+  text-decoration: none;
+  border-bottom: 5px solid #c1a35f;
+}
+
+.menu-table img {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); 
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.menu-body h3 {
+  text-align: center;
+  color: #c1a35f;
+  margin-top: 10;
+}
+
+.menu-body p {
+  text-align: center;
+  margin: 10px;
+
+}
+
+.menu-body h4 {
+  text-align: center;
+  color: #c1a35f;
+  font-family: "Edwardian Script ITC";
+  font-size: 30px;
 
 
+}
 
+.menu-table {
+  text-align: center;
+  padding: 40px;
+  width: 100%;
 
+}
