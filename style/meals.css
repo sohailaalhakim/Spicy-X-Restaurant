@@ -1,0 +1,51 @@
+body {
+  font-family: "Bookman Old Style";
+}
+
+.meals-body {
+  margin-top: 60px;
+}
+
+
+.title{
+    text-align: center;
+    margin: 0px;
+    padding-top: 60px;
+    font-size:  60px;
+    font-family: "Edwardian Script ITC";
+    color:  #c1a35f;
+    line-height: 30px;
+    font-weight: 400;
+  }
+  .sub-title{
+    margin: 0px;
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+  .line{
+    display: inline block;
+    width: 240;
+    border-color: #c1a35f;
+    border-style: solid;
+    margin: 10px auto;
+  }
+  .menubox{
+    background-color: #c1a35f;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    margin-left: 700px;
+    margin-top: 20px;
+   
+  }
+ .maintable img{
+   width: 150px;
+   height: 150px;
+ } 
+ .maintable{
+    text-align: center;
+   margin: 50px;
+    width: 100%;
+ }

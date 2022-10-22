@@ -1,0 +1,87 @@
+body{
+  font-family: "Bookman Old Style";
+}
+
+.about-body{
+  margin-top: 60px;  
+}
+.title{
+    text-align: center;
+    margin: 0px;
+    padding-top: 60px;
+    font-size:  60px;
+    font-family: "Edwardian Script ITC";
+    color:  #c1a35f;
+    line-height: 30px;
+    font-weight: 400;
+  }
+  .sub-title{
+    margin: 0px;
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+  .line{
+    display: inline block;
+    width: 240;
+    border-color: #c1a35f;
+    border-style: solid;
+    margin: 10px auto;
+    
+  }
+  .row{
+    display: inline block;
+  }
+  .slide {
+    background: #fff;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.about-lorem{
+    display: inline;
+    margin-bottom: 70px;
+    padding-bottom: 60px;
+    float: left;
+    width: 100%;
+}
+.about{
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+}
+.lorem{
+    margin: 0 0 10px;
+    letter-spacing: 0.1px;
+    line-height: 26px;
+  }
+  .about{
+    display: inline block;
+  }
+  .main-table{
+    padding: 50px;
+    margin: 40px;
+   
+    }
+   .cont-image{
+    margin-left: 80px;
+    margin-bottom: 170px;
+   }
+   p{
+    line-height: 26px;
+ 
+   
+   }
+  
+   ul{
+    list-style-image:url('..\assets\img\liststyle.png');
+  
+  }
+ .about-lorem   li{
+    margin: 0 0 10px;
+    letter-spacing: 0.1px;
+    line-height: 26px;
+   }

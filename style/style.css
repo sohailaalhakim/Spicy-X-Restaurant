@@ -1,0 +1,265 @@
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Prata);
+
+
+/* TODO -------------------------------------------------------- */
+/* Home Screen  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Prata", serif;
+}
+
+/* TODO -------------------------------------------------------- */
+/* NAVBAR STYLING */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  z-index: 999;
+}
+
+.navbar-log {
+  padding: 0;
+  margin-top: 8px;
+  height: 34px;
+  width: 145px;
+  z-index: 999;
+
+}
+
+.nav-links a {
+  text-decoration: none;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: #fff;
+  z-index: 999;
+  display: block;
+  color: #f2f2f2;
+}
+
+
+/* LOGO */
+.logo {
+  font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+  z-index: 999;
+}
+
+.menu li:hover {
+  background-color: #c1a35f;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+
+/* DROPDOWN MENU */
+.services {
+  position: relative;
+  z-index: 999;
+}
+
+.dropdown {
+  background-color: #333333;
+  padding: 5px 0;
+  margin-right: 30px;
+  position: absolute;
+  display: none;
+  border-radius: 8px;
+  top: 37px;
+  right: -45px;
+}
+
+.dropdown li+li {
+  margin-top: 10px;
+}
+
+.dropdown li {
+  padding: 0.4em 0em;
+  width: 8em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.dropdown li:hover {
+  background-color: #c1a35f;
+}
+
+.dropdown li a {
+  color: white;
+}
+
+.services:hover .dropdown {
+  display: block;
+}
+
+.icon-down {
+  margin-left: 8px;
+  font-size: 24px;
+}
+
+/* TODO --------------------------------------------------------  */
+/* Footer */
+.footer-info .social-icons a img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.footer {
+  background-color: #17181B;
+  width: 100%;
+}
+
+.footer-wrapper {
+  width: 100%;
+  background-color: #17181B;
+  padding: 0 20px 0 20px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.footer-item p {
+  color: #b7b7b7;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.4;
+  margin: 5px 0;
+}
+
+.footer-item {
+  float: left;
+  width: 31%;
+  padding: 30px 25px;
+}
+
+.footer-info .social-icons {
+  margin: 20px 0;
+}
+
+.footer-info .social-icons a {
+  text-decoration: none;
+}
+
+.footer-item h2 {
+  color: #c1a35f;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 5px 0;
+}
+
+.social-icons svg {
+  margin-left: 6px;
+  fill: white;
+
+}
+
+.social-icons svg:hover {
+  fill: #c1a35f;
+}
+
+.social-icons svg:hover path {
+  fill: #c1a35f;
+}
+
+.contact-info h6 {
+  color: white;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 15px 0;
+}
+
+.contact-info h6 span {
+  color: rgb(179, 175, 175);
+  font-weight: normal;
+}
+
+input[type="email"] {
+
+  margin: auto;
+  margin-top: 10px;
+  padding: 4px;
+  width: 60%;
+  height: 32px;
+  border: 1px solid #c1a35f;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  width: 100px;
+  height: 32px;
+  padding: 0 5px 0 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  background: #c1a35f;
+  border: none;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+input[type="email"]:hover {
+  outline: none;
+
+  border: 1px solid #c1a35f;
+}
+
+
+
+input[type="email"]:focus {
+  outline: none;
+  border: none;
+  border-bottom: 3px solid #c1a35f;
+}
+
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+
+}
+
+input[type="submit"]:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+
+}
